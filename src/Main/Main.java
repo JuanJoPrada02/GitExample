@@ -4,6 +4,8 @@
  */
 package Main;
 
+import core.Cat;
+import core.Dog;
 import core.Person;
 
 /**
@@ -16,5 +18,10 @@ public class Main {
         Person persona1 = new Person("Juan Jose", 22, 1007041039);
         System.out.println(persona1);
         
+        Dog perro1 = new Dog("Maltez", "Macho", 7);
+        System.out.println(perro1);
+        
+        Cat gato1 = new Cat("Gato", 33);
+        System.out.println(gato1);
     }
 }

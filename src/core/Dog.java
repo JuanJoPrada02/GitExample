@@ -9,5 +9,14 @@ package core;
  * @author jpradaj
  */
 public class Dog {
+    private String raza;
+    private String name;
+    private int edad; 
+
+    public Dog(String raza, String name, int edad) {
+        this.raza = raza;
+        this.name = name;
+        this.edad = edad;
+    }
     
 }
